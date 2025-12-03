@@ -24,7 +24,7 @@
 			</div> <!-- /.main -->
 			</div> <!-- /.wrapper -->
 
-			<script src="/monitoring/public/js/app.js"></script>
+			<script src="public/js/app.js"></script>
 
 			</body>
 
