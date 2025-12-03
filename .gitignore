@@ -1,0 +1,54 @@
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+
+# VS Code / PHPStorm / IDE
+.vscode/
+.idea/
+*.iml
+
+# --- PHP dependencies / build ---
+vendor/
+composer.lock
+
+# Node / frontend (ako ikad dodaš)
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+dist/
+build/
+
+# --- Logs & cache ---
+*.log
+logs/
+storage/
+tmp/
+cache/
+public/cache/
+monitoring/logs/
+monitoring/tmp/
+monitoring/cache/
+
+# --- Uploaded / generated files ---
+uploads/
+public/uploads/
+monitoring/reports/
+monitoring/generated/
+monitoring/pdf/
+
+# --- Sensitive config ---
+config.php
+.env
+.env.local
+.env.*
+monitoring/config.local.php
+
+# --- IDE / misc ---
+*.bak
+*.tmp
+*.orig
