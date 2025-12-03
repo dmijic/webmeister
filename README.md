@@ -191,3 +191,76 @@ https://www.abuseipdb.com/register
 2. Copy your API key
 3. Place it during installation, or edit inside `config.php`:
 
+# 🌍 AbuseIPDB Integration
+
+1. Register free account:  
+   https://www.abuseipdb.com/register
+
+2. Copy your API key
+
+3. Place it during installation, or edit inside `config.php`:
+
+```php
+$ABUSEIPDB_API_KEY = 'your-key-here';
+```
+If the API key is missing, AbuseIPDB lookups are automatically disabled and the DNS/IP module will show limited data.
+
+
+---
+
+# 📊 Dashboard Overview
+
+The monitoring dashboard provides:
+
+- total monitored sites
+- pending verification count
+- online/offline status
+- average response time (last 24h)
+- domain health charts
+- upcoming SSL expirations
+
+Quick access to modules:
+
+- Website list
+- IP/DNS reputation tools
+- SSL Monitor
+- Alerts
+- Reports
+- Help
+
+---
+
+# 🛠 Development Notes
+
+- pure PHP (no frameworks)
+- custom install wizard
+- PDO prepared statements only
+- token-based domain verification
+- modular templates (`/templates/`)
+- Chart.js graphs
+- Bootstrap 5 UI
+- AdminKit UI styling
+
+---
+
+# 🤝 Contributions
+
+Pull requests are welcome!
+
+Future ideas & roadmap:
+- SMS alert providers
+- uptime SLA calculator
+- weekly digest PDF report
+- Telegram bot integration
+- server resource monitoring
+
+---
+
+# 💬 Support
+
+Project author:  
+**Dario Mijić**  
+https://dariomijic.com
+
+Tools & experiments:  
+https://lab.dariomijic.com
